@@ -140,7 +140,7 @@ let state = {
             user: "Fsdf Rfd",
             img: post_img1,
             history: {
-                user1: "Hi!",
+                user1: "Hii!",
                 answer1: "Hello!",
                 user2: "Lorem",
                 answer2: "LOREM?",
