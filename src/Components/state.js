@@ -157,7 +157,7 @@ let state = {
                 user1: "ER",
                 answer1: "DSCX!",
                 user2: "YEV",
-                answer2: "dvmksx?",
+                answer2: "dvm ksx?",
                 user3: "klmv",
                 answer3: "mkldsvl:)"
             }
