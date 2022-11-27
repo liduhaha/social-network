@@ -1,0 +1,10 @@
+.home {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+    padding: 5vh;
+}
+
+

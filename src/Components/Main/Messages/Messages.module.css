@@ -1,0 +1,8 @@
+.messages {
+    background-color: white;
+    width: 85vw;
+    height: 70vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}

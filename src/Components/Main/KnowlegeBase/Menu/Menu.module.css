@@ -1,0 +1,106 @@
+.menu {
+    width: 88vw;
+    height: 40vh;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.menu header {
+    font-weight: bold;
+    border-bottom: 1px solid #9c9da1;
+    width: 83vw;
+    text-align: left;
+    align-self: center;
+    line-height: 8vh;
+    font-size: 1.6rem;
+}
+
+.menu form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #f1f3f6;
+    width: 83vw;
+    border-radius: 8px;
+    align-items: center;
+    padding: 3vh 0 3vh 0;
+}
+
+.menu form div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fffffe;
+    border: 1px solid #e3e3e4;
+    border-radius: 20px;
+    width: 65vw;
+    height: 5vh;
+    padding: 0 1vw 0 1vw;
+}
+
+.menu form img {
+    width: 1.3vw;
+}
+
+.menu form input {
+    border: none;
+    width: 68vw;
+    padding-left: 1vw;
+    color: #c9c7c6;
+}
+
+.menu form input:focus {
+    border: none;
+    outline: none;
+}
+
+.menu form button {
+    height: 5vh;
+    width: 10vw;
+    border-radius: 40px;
+    background-color: #fa592c;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.menu form button:hover {
+    background-color: #ea4b1e;
+}
+
+.menu form button:active {
+    background-color: #9c9da1;
+    color: black;
+}
+
+.menu nav {
+    width: 83vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 2vw;
+    border-bottom: 1px solid #e3e3e4;
+    padding-bottom: 2vh;
+}
+
+.menu_NavLink {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #e3e3e4;
+    padding-bottom: 2vh;
+    margin-bottom: -2.1vh;
+}
+
+.menu_NavLink:active, .menu_NavLink:hover {
+    color: #fa592b;
+    border-bottom: 1px solid #fa592b;
+}
+
+

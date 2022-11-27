@@ -1,0 +1,93 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 11.5vh;
+    align-items: center;
+    padding-left: 20vw;
+    padding-right: 5vw;
+    z-index: 3;
+    box-shadow: 11px 3px 25px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.myAcc img[alt="profile_img"]{
+    width: 4vw;
+    border-radius: 100px;
+    height:4vw;
+}
+
+.myAcc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 20vw;
+}
+
+.header form button {
+    background-color: transparent;
+    border: none;
+    width: fit-content;
+}
+
+.header form button img {
+    width: 2vw;
+}
+
+.header form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header nav {
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vw;
+}
+
+.header input {
+    border: none;
+}
+
+.myAccInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    align-items: center;
+    width: 15vw;
+}
+
+.navLink:first-of-type {
+    background-image: url('../assets/message.png');
+    width: 2vw;
+}
+
+.navLink:first-of-type:active {
+    background-image: url('../assets/message_active.png');
+    width: 2vw;
+}
+
+.navLink:last-of-type {
+    background-image: url('../assets/notification.png');
+    width: 1.5vw;
+}
+
+.navLink:last-of-type:active {
+    background-image: url('../assets/notification_active.png');
+    width: 1.5vw;
+}
+
+.navLink {
+    height: 2vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+

@@ -1,0 +1,110 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    width: 7vw;
+    height: 100vh;
+    box-shadow: 0 7vw 25px #0000001a;
+    background-color: #fdfcfc;
+}
+
+.navbar #knowledgeBase div:first-of-type {
+    background-image: url("../assets/checklist.png");
+}
+
+.navbar #home div:first-of-type {
+    background-image: url("../assets/home.png");
+}
+
+.navbar header div {
+    background-image: url("../assets/more.png");
+    width: 2vw;
+    height: 2vw;
+    background-size: cover;
+}
+
+.navbar header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 11.5vh;
+    width: 7vw;
+    box-shadow: 0 3px 25px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+
+.navlinkCont {
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    gap: 1vw;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    white-space: nowrap
+
+}
+
+.navlinkCont div:last-of-type {
+    color: rgba(227, 227, 228, 0);
+    text-decoration: none;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.navbar #messages div:first-of-type {
+    background-image: url("../assets/mail.png");
+}
+
+.navbar #members div:first-of-type {
+    background-image: url("../assets/users.png");
+}
+.navbar #groups div:first-of-type {
+    background-image: url("../assets/groups.png");
+}
+
+.navbar #home div:first-of-type, .navbar #groups div:first-of-type, .navbar #members div:first-of-type, .navbar #messages div:first-of-type, .navbar #knowledgeBase div:first-of-type {
+    min-width: 3vw;
+    height: 3vw;
+    border-radius: 10px;
+    background-size: cover;
+    box-shadow: 0 1px 12px rgba(7, 7, 7, 0.1);
+}
+
+.nav_NavLink {
+    display: flex;
+    flex-direction: column;
+    height: 89.5vh;
+    align-items: flex-start;
+    padding-left: 2vw;
+    box-sizing: border-box;
+    gap: 3vh;
+    padding-top: 5vh;
+    background: #fdfcfc;
+    position: fixed;
+    width: 7vw;
+    top: 11.5vh;
+    left: 0;
+}
+
+.navbar:hover .nav_NavLink{
+    width: 20vw;
+    transition: width 0.4s;
+}
+
+.navbar:hover header{
+    width: 20vw;
+    transition: width 0.4s;
+}
+
+.navbar:hover div:last-of-type{
+    color: black;
+    transition: color 2s;
+    white-space: nowrap
+}
+

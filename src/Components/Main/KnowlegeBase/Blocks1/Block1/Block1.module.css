@@ -1,0 +1,56 @@
+.block {
+    background-color: white;
+    border-radius: 20px;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 27.5vw;
+    align-items: flex-start;
+    padding-left: 2vw;
+    box-sizing: border-box;
+}
+
+.block header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.block header img {
+    width: 3vw;
+}
+
+.block header div {
+    font-weight: bold;
+    padding-left: 1vw;
+}
+
+.block nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 45%;
+}
+
+.block_NavLink {
+    text-decoration: none;
+    color: #7a7a7a;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5vw;
+}
+
+.block_NavLink img {
+    width: 1vw;
+}
+
+.block_NavLink:active, .block_NavLink:hover {
+    color: blue;
+}
+
+
+
+

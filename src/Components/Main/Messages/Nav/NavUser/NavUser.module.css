@@ -1,0 +1,38 @@
+.navUser_Link {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    height: 10vh;
+    color: black;
+    width: 18vw;
+}
+
+.navUser_Link:hover {
+    background-color: #7a7a7a;
+    color: white;
+}
+
+.navUser_Link img {
+    width: 3.5vw;
+    height: 3.5vw;
+    border-radius: 30px;
+    border: 1px solid #7a7a7a;
+}
+
+.msg_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.msg_container div:first-of-type {
+    font-size: 1rem;
+}
+
+.msg_container div:last-of-type {
+    font-size: 0.8rem;
+    color: #464545;
+}
