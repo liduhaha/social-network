@@ -171,7 +171,7 @@ let state = {
                 user1: "Jdfv",
                 answer1: "Hsdc dcv",
                 user2: "DFVSDV",
-                answer2: "dkvll",
+                answer2: "dkv ll",
                 user3: "sdevmewv;aio;wevmng;ienrov njkfkejwnf jn jkdvcewkj",
                 answer3: "efc:)"
             }
