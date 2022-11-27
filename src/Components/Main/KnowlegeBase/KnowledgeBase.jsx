@@ -10,9 +10,10 @@ import Blocks1 from "./Blocks1/Blocks1";
 const KnowledgeBase = (props) => {
   return (
       <div className={style.knowledgeBase}>
+          <Menu forMenu={props.forKnowledgeBase}/>
+
           <BaseAll forBaseAll={props.forKnowledgeBase}>
               <Routes>
-                  <Route path={"/knowledge-base/*"} element={<Menu forMenu={props.forKnowledgeBase}/>}/>
                   <Route path="/knowledge-base/purchase-and-refund" element={<Blocks3/>}/>
                   <Route path="/knowledge-base/popular-questions" element={<Blocks2/>}/>
                   <Route path="/knowledge-base/analytics" element={<Blocks1/>}/>

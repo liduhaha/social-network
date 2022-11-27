@@ -2,8 +2,6 @@ import React from "react";
 import style from './Menu.module.css'
 import {NavLink} from "react-router-dom";
 
-
-
 const Menu = (props) => {
   return (
       <div className={style.menu}>
@@ -18,9 +16,9 @@ const Menu = (props) => {
           </form>
 
           <nav>
-              <NavLink to={"/knowledge-base/analytics"} className={style.menu_NavLink}>{props.forMenu.menu.nav1}</NavLink>
-              <NavLink to={"/knowledge-base/popular-questions"} className={style.menu_NavLink}>{props.forMenu.menu.nav2}</NavLink>
-              <NavLink to={"/knowledge-base/purchase-and-refund"} className={style.menu_NavLink}>{props.forMenu.menu.nav3}</NavLink>
+              <NavLink to="/knowledge-base/analytics" className={style.menu_NavLink}>{props.forMenu.menu.nav1}</NavLink>
+              <NavLink to="/knowledge-base/popular-questions" className={style.menu_NavLink}>{props.forMenu.menu.nav2}</NavLink>
+              <NavLink to="/knowledge-base/purchase-and-refund" className={style.menu_NavLink}>{props.forMenu.menu.nav3}</NavLink>
           </nav>
       </div>
   )
