@@ -169,7 +169,7 @@ let state = {
             img: post_img3,
             history: {
                 user1: "Jdfv",
-                answer1: "Hsdcdcv",
+                answer1: "Hsdc dcv",
                 user2: "DFVSDV",
                 answer2: "dkvll",
                 user3: "sdevmewv;aio;wevmng;ienrov njkfkejwnf jn jkdvcewkj",
