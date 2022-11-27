@@ -10,15 +10,15 @@
 }
 
 .navbar #knowledgeBase div:first-of-type {
-    background-image: url("../assets/checklist.png");
+    background-image: url("../../assets/checklist.png");
 }
 
 .navbar #home div:first-of-type {
-    background-image: url("../assets/home.png");
+    background-image: url("../../assets/home.png");
 }
 
 .navbar header div {
-    background-image: url("../assets/more.png");
+    background-image: url("../../assets/more.png");
     width: 2vw;
     height: 2vw;
     background-size: cover;
@@ -58,14 +58,14 @@
 }
 
 .navbar #messages div:first-of-type {
-    background-image: url("../assets/mail.png");
+    background-image: url("../../assets/mail.png");
 }
 
 .navbar #members div:first-of-type {
-    background-image: url("../assets/users.png");
+    background-image: url("../../assets/users.png");
 }
 .navbar #groups div:first-of-type {
-    background-image: url("../assets/groups.png");
+    background-image: url("../../assets/groups.png");
 }
 
 .navbar #home div:first-of-type, .navbar #groups div:first-of-type, .navbar #members div:first-of-type, .navbar #messages div:first-of-type, .navbar #knowledgeBase div:first-of-type {

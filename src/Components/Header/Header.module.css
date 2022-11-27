@@ -66,22 +66,22 @@
 }
 
 .navLink:first-of-type {
-    background-image: url('../assets/message.png');
+    background-image: url('../../assets/message.png');
     width: 2vw;
 }
 
 .navLink:first-of-type:active {
-    background-image: url('../assets/message_active.png');
+    background-image: url('../../assets/message_active.png');
     width: 2vw;
 }
 
 .navLink:last-of-type {
-    background-image: url('../assets/notification.png');
+    background-image: url('../../assets/notification.png');
     width: 1.5vw;
 }
 
 .navLink:last-of-type:active {
-    background-image: url('../assets/notification_active.png');
+    background-image: url('../../assets/notification_active.png');
     width: 1.5vw;
 }
 
