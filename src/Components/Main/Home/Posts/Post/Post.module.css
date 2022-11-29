@@ -51,3 +51,34 @@
     color: #7a7a7a;
 }
 
+.btnCont {
+    align-self: center;
+    width: 13vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 4vh;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid #c9c7c6;
+}
+
+.btnCont div {
+    line-height: 4.7vh;
+}
+
+.btnCont button img{
+    width: 1.8vw;
+    height: 1.8vw;
+}
+.btnCont button {
+    width: 5vw;
+    height: 5vh;
+    text-align: center;
+    line-height: 6.5vh;
+    background: none;
+    border: none;
+}
+
+

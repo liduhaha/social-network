@@ -1,8 +1,8 @@
 import React from "react";
-import style from './ChatHistory1.module.css'
+import style from './ChatHistory.module.css'
 import classNames from "classnames";
 
-const ChatHistory1 = (props) => {
+const ChatHistory = (props) => {
   return (
       <div className={style.chatHistory}>
           <section>
@@ -20,4 +20,4 @@ const ChatHistory1 = (props) => {
   )
 }
 
-export default ChatHistory1
+export default ChatHistory

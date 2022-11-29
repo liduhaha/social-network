@@ -17,6 +17,7 @@ function App(props) {
       <Main forMain={props.state}>
         <Routes>
           <Route path='/home' element={<Home forHome={props.state}/>}/>
+            <Route path='*' element={<Home forHome={props.state}/>}/>
           <Route path='social-network/' element={<Home forHome={props.state}/>}/>
           <Route path='/knowledge-base/*' element={<KnowledgeBase forKnowledgeBase={props.state}/>}/>
             <Route path="/messages/*" element={<Messages forMessages={props.state}/>}/>

@@ -20,6 +20,9 @@
     padding: 0.8vw 2vw;
     line-height: 3vh;
     box-shadow: 0 0 25px #0000001a;
+    max-width: 15vw;
+    word-break: break-word;
+    text-align: left;
 }
 
 .chatHistory section:first-of-type div {

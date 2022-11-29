@@ -16,7 +16,9 @@ import block_img5 from '../assets/base/img5_plan.png';
 import block_img6 from '../assets/base/img6_purch.png';
 import list from '../assets/base/list.png';
 import settings from '../assets/base/settings.png';
-import send from '../assets/send.png'
+import send from '../assets/send.png';
+import likeBtn from '../assets/posts/like.png';
+import dislikeBtn from '../assets/posts/dislike.png'
 
 let state = {
     header: {
@@ -51,21 +53,30 @@ let state = {
                 user: "Serf Eaef",
                 time: "10 minutes ago",
                 message: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium atque est excepturi illo perspiciatis reiciendis repudiandae saepe similique veniam.",
-                img: post_img1
+                img: post_img1,
+                like: 10,
+                like_btn: likeBtn,
+                dislike_btn: dislikeBtn
             },
             {
                 id: 2,
                 user: "Fsd Gsc",
                 time: "30 minutes ago",
                 message: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium atque est excepturi illo perspiciatis reiciendis repudiandae saepe similique veniam.",
-                img: post_img2
+                img: post_img2,
+                like: 3,
+                like_btn: likeBtn,
+                dislike_btn: dislikeBtn
             },
             {
                 id: 3,
                 user: "Lsdvc Gsd",
                 time: "1 hour ago",
                 message: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, nesciunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium atque est excepturi illo perspiciatis reiciendis repudiandae saepe similique veniam.",
-                img: post_img3
+                img: post_img3,
+                like: 24,
+                like_btn: likeBtn,
+                dislike_btn: dislikeBtn
             }
         ]
     },
@@ -283,9 +294,6 @@ let state = {
                         from_001: "ER",
                         from_002: "DSCX!",
                         from_003: "YEV",
-                    },
-
-                    {
                         to_001: "dvm ksx?",
                         to_002: "klmv",
                         to_003: "mkldsvl!!"
@@ -302,9 +310,6 @@ let state = {
                         from_001: "Jdfv",
                         from_002: "Hsdc dcv",
                         from_003: "DFVSDV sdfgsgerg",
-                    },
-
-                    {
                         to_001: "dkv ll",
                         to_002: "sdevmewv;aio;wevmng;ienrov njkfkejwnf jn jkdvcewkj",
                         to_003: "efc"

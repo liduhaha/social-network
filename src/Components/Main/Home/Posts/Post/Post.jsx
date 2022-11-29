@@ -15,8 +15,10 @@ const Post = (props) => {
               {props.message}
           </div>
           <div className={style.btnCont}>
-              <button></button>
-              <button></button>
+              <button><img src={props.like_img} alt=""/></button>
+              <div>{props.like}</div>
+              <button><img src={props.dislike_img} alt=""/></button>
+
           </div>
       </div>
   )
