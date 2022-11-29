@@ -61,7 +61,7 @@ let state = {
             {
                 id: 2,
                 user: "Fsd Gsc",
-                time: "35 minutes ago",
+                time: "30 minutes ago",
                 message: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium atque est excepturi illo perspiciatis reiciendis repudiandae saepe similique veniam.",
                 img: post_img2,
                 like: 3,
