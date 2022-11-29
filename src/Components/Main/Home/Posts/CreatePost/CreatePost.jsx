@@ -7,11 +7,11 @@ const CreatePost = (props) => {
           <div className={style.textArea}>
               <header>
                   <img src={props.forCreatePost.header.profile_img} alt="newPostProfileImg"/>
-                  <div>{props.forCreatePost.newpost.header}{props.forCreatePost.header.user}?</div>
+                  <div>{props.forCreatePost.homepage.newpost.header}{props.forCreatePost.header.user}?</div>
               </header>
               <textarea name="" id=""></textarea>
           </div>
-          <button>{props.forCreatePost.newpost.button}</button>
+          <button>{props.forCreatePost.homepage.newpost.button}</button>
       </div>
   )
 }

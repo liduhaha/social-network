@@ -1,0 +1,72 @@
+.chatHistory {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 67vw;
+    height: 69vh;
+    background-color: rgba(225, 223, 223, 0.34);
+    padding: 2vw;
+    box-sizing: border-box;
+    border-radius: 0 20px 20px 0;
+
+}
+
+.chatHistory section {
+    height: 100%;
+}
+
+.chatHistory section div {
+    padding: 0.8vw 2vw;
+    line-height: 3vh;
+    box-shadow: 0 0 25px #0000001a;
+}
+
+.chatHistory section:first-of-type div {
+    background-color: white;
+}
+
+.chatHistory section:first-of-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10vh;
+}
+
+.chatHistory section:last-of-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10vh;
+    padding-top: 10vh;
+    color: white;
+}
+
+.chat {
+    border-radius: 12px;
+    background: #3e8fe9;
+    position: relative;
+}
+.left {
+    border-bottom-left-radius: 0;
+}
+.right {
+    border-bottom-right-radius: 0;
+}
+.chat::after {
+    content: '';
+    width: 1.5em;
+    height: 1.5em;
+    position: absolute;
+    bottom: 0;
+}
+.left::after {
+    left: 0;
+    transform: translateX(-100%);
+    background: radial-gradient(circle at 0 0, transparent, transparent 72%, #ffffff 72%);
+}
+.right::after {
+    right: 0;
+    transform: translateX(100%);
+    background: radial-gradient(circle at 100% 0, transparent, transparent 72%, #3e8fe9 72%);
+}

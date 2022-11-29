@@ -8,8 +8,6 @@ import state from './Components/state'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>
-            <App state={state}/>
+        <App state={state}/>
     </BrowserRouter>
 );
-
-

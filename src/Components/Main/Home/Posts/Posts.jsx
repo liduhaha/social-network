@@ -3,7 +3,7 @@ import style from './Posts.module.css';
 import state from '../../../state'
 import Post from "./Post/Post";
 
-let postElement = state.posts.map(post => <Post img={post.img} user={post.user} time={post.time} message={post.message}/>)
+let postElement = state.homepage.posts.map(post => <Post img={post.img} user={post.user} time={post.time} message={post.message}/>)
 
 const Posts = (props) => {
   return (

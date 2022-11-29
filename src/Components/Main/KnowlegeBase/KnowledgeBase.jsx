@@ -14,9 +14,10 @@ const KnowledgeBase = (props) => {
 
           <BaseAll forBaseAll={props.forKnowledgeBase}>
               <Routes>
-                  <Route path="/knowledge-base/purchase-and-refund" element={<Blocks3/>}/>
-                  <Route path="/knowledge-base/popular-questions" element={<Blocks2/>}/>
-                  <Route path="/knowledge-base/analytics" element={<Blocks1/>}/>
+                  <Route path="/*" element={<Blocks1/>}/>
+                  <Route path="/purchase-and-refund" element={<Blocks3/>}/>
+                  <Route path="/popular-questions" element={<Blocks2/>}/>
+                  <Route path="/analytics" element={<Blocks1/>}/>
               </Routes>
           </BaseAll>
       </div>

@@ -3,7 +3,7 @@ import style from './MessageBlock.module.css'
 
 const MessageBlock = (props) => {
   return (
-      <div>
+      <div className={style.messageBlock}>
           {props.children}
       </div>
   )

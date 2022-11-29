@@ -4,7 +4,8 @@
     position: relative;
     top: 11.5vh;
     left: 7vw;
-    min-height: 109.5vh;
+    height: fit-content;
+    padding-bottom: 6vh;
     z-index: 1;
     padding-top: 3vh;
     display: flex;

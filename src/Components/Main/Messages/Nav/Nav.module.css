@@ -1,8 +1,6 @@
 .nav_messages {
     width: 18vw;
-    height: 100%;
-    border-right: 1px solid #7a7a7a;
-    background-color: #d0d0d0;
+    border-right: 1px solid #c9c7c6;
     border-radius: 20px 0 0 20px;
     display: flex;
     flex-direction: column;
